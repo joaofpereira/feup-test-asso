@@ -4,6 +4,10 @@ $(function () {
     renderProductUnitsSold(currentYear);
 });
 
+// function blablabla() {
+//    balelas
+//}
+
 function renderProductUnitsSold(year) {
     // clear previous morris bar chart
     removeAllChildrenOfNode('productunitssold');
@@ -30,8 +34,3 @@ function renderProductUnitsSold(year) {
         }
     })
 }
-
-/* function blablabla() {
-    balelas
-}
-*/
